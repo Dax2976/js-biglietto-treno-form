@@ -9,7 +9,7 @@ body{
 }
 
 .priceContainer{
-    padding: 50px 0;
+    padding: 40px 0;
     justify-content: space-around;
 }
 
@@ -19,6 +19,37 @@ body{
 }
 
 .btn{
-    
-    padding-bottom: 30px;
+    display: block;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+.genTicket{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+
+.infoTicket{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+}
+
+.cardUtente{
+    background-color: grey;
+}
+
+.containerDisnone{
+    display: none;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
