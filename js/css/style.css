@@ -1,5 +1,14 @@
+:root{
+    --bg_pinkred: rgba(185, 20, 80, 1);
+    --text: rgba(195, 53, 105, 1);
+
+}
+
+
+
+
 body{
-    background-color: red;
+    background-color:var(--bg_pinkred);
 }
 
 .mainContent{
@@ -12,9 +21,13 @@ body{
     padding: 40px 0;
     justify-content: space-around;
 }
-
+input , select{
+    border: 1px solid var(--text);
+    border-radius: 10px;
+    
+}
 .pink{
-    color: pink;
+    color:  var(--text);
  
 }
 
@@ -22,12 +35,12 @@ body{
     display: block;
     padding-bottom: 20px;
     border-radius: 10px;
-
+   
 }
 
 .genTicket{
     background-color: white;
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding: 15px;
 }
@@ -45,11 +58,16 @@ body{
 .containerDisnone{
     display: none;
     padding: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 60px;;
 }
 
 .card{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border: none;
+}
+
+.dBlock{
+    display: block;
 }
