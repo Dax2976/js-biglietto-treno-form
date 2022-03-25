@@ -1,5 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    background-color: red;
+}
+
+.mainContent{
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.priceContainer{
+    padding: 50px 0;
+    justify-content: space-around;
+}
+
+.pink{
+    color: pink;
+ 
+}
+
+.btn{
+    
+    padding-bottom: 30px;
 }
