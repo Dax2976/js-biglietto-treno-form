@@ -18,6 +18,7 @@ genera.addEventListener('click',function(){
     nome = nome.value
     km = km.value
     eta = eta.value
+    alert('il biglietto è stato generato con successo')
 
 
     let costoTreno = 0.21
