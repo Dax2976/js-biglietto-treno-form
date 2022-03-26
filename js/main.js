@@ -9,7 +9,12 @@ let display = document.getElementById('Dnone')
 
 // inizio calcoli
 
-btngenera.addEventListener('click',function(){
+
+annulla.addEventListener('click',function(){
+    location.reload()
+})
+
+genera.addEventListener('click',function(){
     nome = nome.value
     km = km.value
     eta = eta.value
